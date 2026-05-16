@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.tmp
+
+# Virtual Environment
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Kubernetes
+kubeconfig.yaml
+
+# Ollama / AI
+models/
+*.gguf
+
+# Terraform (future-proofing)
+.terraform/
+terraform.tfstate*
+*.tfvars
+
+# Docker
+*.tar
+
+# Testing
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Secrets
+secrets/
+*.pem
+*.key
+
+# LangChain
+.langchain.db
+
+# Local runtime
+tmp/
+cache/
+
+# Prometheus
+prometheus_data/
+
+# Grafana
+grafana_data/
